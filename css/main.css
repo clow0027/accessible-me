@@ -65,10 +65,12 @@ form textarea {
 }
 
 form button {
-  background: none;
+  background: whitesmoke;
   border: 2px solid black;
   padding: 1rem;
   text-transform: uppercase;
+  /* sizes up text of button to draw more attention to it */
+  font-size: medium;
 }
 
 .site-footer {
