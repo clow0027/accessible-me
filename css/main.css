@@ -1,6 +1,9 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  /* adds font/text colour so it isn't default to browser */
+  color: black;
+  /* Changing background color to increase contrast */
+  background-color: #D3D3D3;
   margin: 0;
   padding: 0;
 }
@@ -10,8 +13,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+ {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  text-decoration-color: black;
 }
 
 .container {
