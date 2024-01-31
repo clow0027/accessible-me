@@ -23,6 +23,11 @@ body {
   font-weight: bold;
 }
 
+/* Makes link visible once hovered on */
+.skip-links a:focus{
+  top:0;
+}
+
 
 h1,
 h2,
