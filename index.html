@@ -43,6 +43,7 @@
       <div class="owner">
          <!-- Adding Text Hierarchy (Making this H2 since it's a sub section of Welcome to Jambox)-->
         <h2>Meet the owner</h2>
+        <!-- Adds Schema to John Doe person information -->
         <ul itemscope itemtype="https://schema.org/Person">
           <li itemprop="givenName">Name: John Doe</li>  
           <li itemprop="jobTitle">Title: CEO</li>
@@ -51,12 +52,13 @@
         </ul>
          <!-- Adding Text Hierarchy (New sub-section) -->
         <h3>Address</h3>
-        <p>
-          Jambox Studios
-          123 Guitar Road,
-          Musicville, Danceistan
-          B3T 0L0
-        </p>
+        <!-- Adds Schema to address -->
+        <div itemscope itemtype="http://schema.org/PostalAddress">
+          <p itemprop="streetAddress">123 Guitar Road</p>
+          <p itemprop="addressLocality">Musicville</p>
+          <p itemprop="addressRegion">Danceistan</p>
+          <p itemprop="postalCode">B3T 0L0</p>
+        </div>
       </div>
       <div class="contact-section">
          <!-- Adding Text Hierarchy (Same category of sub-section as address)-->
