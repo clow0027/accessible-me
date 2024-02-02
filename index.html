@@ -20,8 +20,6 @@
       <li><a href="#nav" aria-label="Skip to main navigation">Skip to main nav</a></li>
       <li><a href="#main" aria-label="Skip to main content">Skip to main content</a></li>
       <li><a href="#form" aria-label="Skip to contact form">Skipt to contact form</a></li>
-
-
     </ul>
 
     <header aria-label="Main Header">
@@ -45,11 +43,11 @@
       <div class="owner">
          <!-- Adding Text Hierarchy (Making this H2 since it's a sub section of Welcome to Jambox)-->
         <h2>Meet the owner</h2>
-        <ul>
-          <li>Name: John Doe</li>
-          <li>Title: CEO</li>
-          <li>Email: johnjoe@jambox.ca</li>
-          <li>Phone: 613-000-0000</li>
+        <ul itemscope itemtype="https://schema.org/Person">
+          <li itemprop="givenName">Name: John Doe</li>  
+          <li itemprop="jobTitle">Title: CEO</li>
+          <li itemprop="email">Email: johnjoe@jambox.ca</li>
+          <li itemprop="telephone">Phone: 613-000-0000</li>
         </ul>
          <!-- Adding Text Hierarchy (New sub-section) -->
         <h3>Address</h3>
