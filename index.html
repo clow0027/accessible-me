@@ -53,7 +53,7 @@
          <!-- Adding Text Hierarchy (New sub-section) -->
         <h3>Address</h3>
         <!-- Adds Schema to address -->
-        <div itemscope itemtype="http://schema.org/PostalAddress">
+        <div itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
           <p itemprop="streetAddress">123 Guitar Road</p>
           <p itemprop="addressLocality">Musicville</p>
           <p itemprop="addressRegion">Danceistan</p>
@@ -84,7 +84,9 @@
     <footer class="site-footer" aria-label="Site Footer">
       &copy; 2021 Jam Box Studios
       <!-- Adds Back to Top Skip Link -->
-      <li><a href="#top">Back to top</a></li>
+      <ul>
+        <li><a href="#top">Back to top</a></li>
+      </ul>
     </footer>
   </div>
 </body>
