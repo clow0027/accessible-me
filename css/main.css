@@ -3,7 +3,7 @@ body {
   /* adds font/text colour so it isn't default to browser */
   color: black;
   /* Changing background color to increase contrast */
-  background-color: #D3D3D3;
+  background-color: whitesmoke;
   margin: 0;
   padding: 0;
 }
@@ -86,7 +86,7 @@ form textarea {
 }
 
 form button {
-  background: whitesmoke;
+  background: white;
   border: 2px solid black;
   padding: 1rem;
   text-transform: uppercase;
