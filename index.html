@@ -11,15 +11,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
-
+<!-- Adds top tag for back to top skip link -->
 <body id="top">
   <div class="container">
 
-    <!-- Adds comments -->
-    <ul class="skip-links">
-      <li><a href="#nav">Skip to main nav</a></li>
-      <li><a href="#main">Skip to main content</a></li>
-      <li><a href="#form">Skipt to contact form</a></li>
+    <!-- Adds skip links with ARIA labels -->
+    <ul class="skip-links" role="navigation">
+      <li><a href="#nav" aria-label="Skip to main navigation">Skip to main nav</a></li>
+      <li><a href="#main" aria-label="Skip to main content">Skip to main content</a></li>
+      <li><a href="#form" aria-label="Skip to contact form">Skipt to contact form</a></li>
 
 
     </ul>
@@ -27,7 +27,7 @@
     <header>
       <h1>Jam Box Studios</h1>
       <div class="main-nav">
-        <ul id="nav">
+        <ul id="nav" role="navigation">
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="#">Reservation</a></li>
@@ -35,7 +35,7 @@
         </ul>
       </div>
       <!-- Add alt tag to photo -->
-      <img src="https://placekitten.com/1200/900" alt="grey tabby kitten" class="banner">
+      <img src="https://placekitten.com/1200/900" alt="grey tabby kitten" class="banner" role="img" aria-label="grey tabby kitten">
     </header>
     <main id="main">
       <!-- Adding Text Hierarchy -->
@@ -63,7 +63,7 @@
       <div class="contact-section">
          <!-- Adding Text Hierarchy (Same category of sub-section as address)-->
         <h3>Contact Us </h3>
-        <form id="form" action="thanks.html">
+        <form id="form" action="thanks.html" role="form">
           <label for="fullname">Full Name</label>
           <input type="text" id="fullname" placeholder="Full Name">
 
